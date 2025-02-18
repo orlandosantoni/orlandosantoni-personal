@@ -1,3 +1,8 @@
+export const metadata = {
+  title: 'Orlando Santoni',
+};
+
+
 export default function Home() {
   return (
     <div className="max-w-xl mx-auto my-24">
