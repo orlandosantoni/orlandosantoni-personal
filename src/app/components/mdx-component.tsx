@@ -18,7 +18,13 @@ const components = {
       className="mt-4 text-base leading-7"
       {...props} 
     />
-  ) 
+  ),
+  a: ({...props}) => (
+    <a 
+      className="mt-4 text-base leading-7 font-semibold hover:underline"
+      {...props} 
+    />
+  )
 }
 
 interface MdxProps {
