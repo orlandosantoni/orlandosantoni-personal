@@ -1,0 +1,28 @@
+---
+title: Building this Website
+date: '2025-03-23'
+tags:
+  - tech
+---
+
+In this post I'll walk through some of my thoughts on building this website. This website was built using NextJS, ContentLayer, MDX, and Tailwind.
+
+## Why I built this blog
+I primarily built this blog so I could have a place to publish things that I write. Mainly on things I may be reading or learning 
+about at the time. I also wanted to get better at writing, and I figured there's no better way to do so then to actually just start
+writing. Forcing myself to publish things somewhere — and having some arbitrary weekly deadline — would also likely push me to write more
+as well. Another motivation to build this blog was also to have it as an excuse to learn about certain technologies.
+
+## Why I picked these technologies
+Part of why I picked NextJS because it's a framework that is used at Spotify, and so as a result I am somewhat familiar with it. 
+NextJS pre-renders every page and most of the pages in this blog (at least to start) will not have dynamic data. This should hypothetically lead
+to better performance and SEO, which is also part of why I decided to use NextJS. 
+
+My motivation for using ContentLayer and MDX mainly revolved around the desire to create as little friction as possible for writing and publishing
+onto this blog. ContentLayer is a tool that allows you to transform content (in this case plain text markdown files) into JSON that can be used in 
+your application. Using ContentLayer allows me the flexibility to write simple markdown and thus focus on writing without the friction of thinking about 
+the application code. MDX is another tool that allows me to use JSX in markdown content. I decided to use this in case I wanted to 
+be able to use React components in my blog posts. That sort of in a way defeats the original purpose of frictionless writing, but hey, at least
+it's completely optional!
+
+Tailwind I decided to pick simply due to it's popularity and wanting to try it out for myself.
