@@ -3,9 +3,7 @@ import { allPosts } from "contentlayer/generated";
 import { format, parseISO } from "date-fns";
 
 interface PostPageProps {
-  params: {
-    slug: string;
-  }
+  params: Promise<{ slug: string }>;
 }
 
 export default async function PostPage({ params }: PostPageProps) {
