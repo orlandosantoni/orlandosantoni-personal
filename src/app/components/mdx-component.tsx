@@ -9,13 +9,13 @@ const components = {
   ),
   h2: ({...props}) => (
     <h2 
-      className="mt-10 pb-1 text-3xl font-semibold tracking-tight"
+      className="mt-10 pb-1 text-2xl font-semibold tracking-tight"
       {...props} 
     />
   ),
   p: ({...props}) => (
     <p 
-      className="mt-8 text-base leading-7"
+      className="mt-4 text-base leading-7"
       {...props} 
     />
   ) 
